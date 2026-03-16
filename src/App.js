@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import Compteur from "./Compteur";
+import FocusInput from "./FocusInput";
+import CompteurRendu from "./CompteurRendu";
+import ListeArticles from "./ListeArticles";
+import Timer from "./Timer";
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Découverte des Hooks avancés React</h1>
+
+      <section>
+        <h2>Gestion d'état avec useReducer</h2>
+        <Compteur />
+      </section>
+
+      <section>
+        <h2>Manipulation du DOM avec useRef</h2>
+        <FocusInput />
+      </section>
+
+      <section>
+        <h2>Compteur de rendu</h2>
+        <CompteurRendu />
+      </section>
+
+      <section>
+        <h2>Récupération de données API</h2>
+        <ListeArticles />
+      </section>
+
+      <section>
+        <h2>Timer React</h2>
+        <Timer />
+      </section>
     </div>
   );
 }
