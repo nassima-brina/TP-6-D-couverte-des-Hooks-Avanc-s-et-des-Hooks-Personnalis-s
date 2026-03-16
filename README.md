@@ -7,9 +7,9 @@ Développement Front-End moderne avec React
 
 ## Contexte
 
-Ce TP s'inscrit dans la continuité du cours Développement Front-End moderne avec React.  
-Il permet de découvrir et de mettre en pratique plusieurs Hooks avancés de React ainsi que la création d’un Hook personnalisé.
-Le but est de comprendre comment gérer un état plus structuré avec useReducer, manipuler directement le DOM avec useRef, utiliser useEffect avec une fonction de nettoyage, et créer un Hook personnalisé pour réutiliser une logique dans plusieurs composants.
+#### Ce TP s'inscrit dans la continuité du cours Développement Front-End moderne avec React.  
+#### Il permet de découvrir et de mettre en pratique plusieurs Hooks avancés de React ainsi que la création d’un Hook personnalisé.
+#### Le but est de comprendre comment gérer un état plus structuré avec useReducer, manipuler directement le DOM avec useRef, utiliser useEffect avec une fonction de nettoyage, et créer un Hook personnalisé pour réutiliser une logique dans plusieurs composants.
 
 ---
 
@@ -26,11 +26,11 @@ Le but est de comprendre comment gérer un état plus structuré avec useReducer
 
 ## Technologies utilisées
 
-- React 18
-- JavaScript
-- JSX
-- Hooks React (useReducer, useRef, useEffect)
-- CSS personnalisé
+#### - React 18
+#### - JavaScript
+#### - JSX
+#### - Hooks React (useReducer, useRef, useEffect)
+#### - CSS personnalisé
 
 ---
 
@@ -44,20 +44,20 @@ Le but est de comprendre comment gérer un état plus structuré avec useReducer
 
 #### - Cloner le projet :
 
-git clone https://github.com/nassima-brina/TP-6-D-couverte-des-Hooks-Avanc-s-et-des-Hooks-Personnalis-s/tree/main
+#### git clone https://github.com/nassima-brina/TP-6-D-couverte-des-Hooks-Avanc-s-et-des-Hooks-Personnalis-s/tree/main
 
 #### - Entrer dans le dossier :
 
-cd tp-hooks-debutant
+#### cd tp-hooks-debutant
 
 
 #### - Installer les dépendances :
 
-npm install
+#### npm install
 
 #### - Lancer le serveur de développement :
 
-npm start
+#### npm start
 
 #### L'application s'ouvre sur : http://localhost:3000
 
